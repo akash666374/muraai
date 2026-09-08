@@ -8,15 +8,86 @@
 </head>
 
 <body>
-    <h1>HELLO</h1>
-    <button>submit</button>
+    <!-- click events -->
+    <!-- <button id="btn">SUBMIT</button>
 
 
     <script>
-        button.addEventListener("click", (event) => {
-            console.log(event);
+        let button = document.querySelector("#btn")
+        button.addEventListener("click", () => {
+            document.body.style.backgroundColor = "aqua"
+            document.body.innerHTML = "<h2>SUBMITTED</h2>"
         });
+    </script> -->
+
+
+    <!-- input events -->
+    <!-- <form action="">
+        <input id="name" type="text" placeholder="ENTER YOUR NAME">
+
+    </form>
+
+
+    <script>
+        let input = document.querySelector("#name")
+        input.addEventListener("input", () => {
+            // console.log("YOU ARE TYPING");
+            document.body.innerHTML = `<p>${input.value}</p>`;
+        })
     </script>
+
+    </form> -->
+
+    <!-- mouse over events -->
+    <!-- <h1 id="mouse">HELLO</h1>
+    <script>
+        let mouse = document.querySelector("#mouse")
+        mouse.addEventListener("mouseover", () => {
+            document.body.style.color = "goldenrod";
+            console.log("SUBMITTED");
+
+        })
+
+        let mouseleft = document.querySelector("#mouse")
+        mouseleft.addEventListener("mouseout", () => {
+            document.body.style.color = "black";
+            console.log("MOUSE LEFT");
+        })
+
+    </script> -->
+
+    <!-- //change events -->
+    <!-- <select id="language">
+        <option>Java</option>
+        <option>JavaScript</option>
+        <option>Python</option>
+    </select>
+
+    <script>
+        let language = document.querySelector("#language");
+
+        language.addEventListener("change", () => {
+            console.log(language.value);
+        });
+    </script> -->
+
+
+    <!-- keydown and keyup -->
+    <!-- <input id="name" type="text" placeholder="Type something">
+
+    <script>
+        let input = document.querySelector("#name");
+
+        // keydown
+        input.addEventListener("keydown", (event) => {
+            console.log("KEY PRESSED:", event.key);
+        });
+
+        // keyup
+        input.addEventListener("keyup", (event) => {
+            console.log("KEY RELEASED:", event.key);
+        });
+    </script> -->
 </body>
 
 </html>

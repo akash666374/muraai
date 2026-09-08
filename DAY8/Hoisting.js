@@ -11,8 +11,8 @@ let x = 20;
 console.log(x);
 
 
-console.log(z);
-const z = 30;
+// console.log(z);
+// const z = 30;
 
 
 
