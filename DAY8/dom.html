@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- getelementbyid
+     getelementbyid -->
+    <!-- <h1 id="abc">HELLO</h1> -->
+
+    <!-- getelementbyclass -->
+    <!-- <p class="message">Hello</p>
+    <p class="message">Welcome</p>  -->
+
+
+    <!-- tag name selector -->
+    <!-- <p>HELLO</p> -->
+
+    <!-- query selector
+     <p id="abc">HELLO</p>
+    <p id="abc">WELCOME</p> -->
+
+    <p id="abc">HELLO</p>
+    <p id="abc">WELCOME</p>
+
+
+    <script>
+        // let heading = document.getElementById("abc");
+        // console.log(heading);
+
+        // heading.textContent = "WELCOME";
+
+        //getelementby class name
+        // let heading = document.getElementsByClassName("message")
+        // console.log(heading);
+
+        //get element by tag name
+        // let heading = document.getElementsByTagName("p");
+        // console.log(heading);
+
+        // heading[0].style.backgroundColor = "blue";
+
+
+        //queryselector
+        // let heading = document.querySelector(".message")
+        // console.log(heading);
+        // heading.textContent = "HI";   // we can use any selector in query it can be tag name,by id or by class and it will return only one element
+
+
+        // let result = document.querySelector("#abc")
+        // console.log(result);
+        // result.textContent = "HI";
+
+
+        //queryselectorall
+        // let result = document.querySelectorAll(".abc");
+        // console.log(result);
+        // result.forEach((result) => {
+        //     result.textContent = "HI";
+        // })
+
+
+        let res = document.querySelector("#abc");
+        console.log(res);
+
+        res.textContent = "HELLO JAVASCRIPT";
+        // res.forEach((res) => {
+        //     res.textContent = "HELLO JAVASCRIPT";
+        // })
+
+
+
+
+    </script>
+</body>
+
+</html>
