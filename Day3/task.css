@@ -1,0 +1,112 @@
+#abc {
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    position: sticky;
+    top: 0%
+}
+
+#aaa {
+    height: 75px;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background-color: lightblue;
+    color: black;
+}
+
+#bbb {
+    height: 300px;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+    border: none;
+    background-color: whitesmoke;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+
+
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+    font-size: xx-large;
+
+
+}
+
+#ccc {
+    height: 200px;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(230, 197, 173);
+    border: none;
+
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+
+    #abc {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #bbb {
+        height: auto;
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px;
+
+    }
+
+    #aaa {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #ccc {
+        height: auto;
+        padding: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
